@@ -39,7 +39,7 @@ Sequence - AAA - ZZZ ]
     Used Postman to test
 
 - POST
-    - /api/create-appointments
+    - /api/create-appointment
 - BODY - FORM DATA
     - customer_name:Ajith
     - vehicle_number:KL1205603178

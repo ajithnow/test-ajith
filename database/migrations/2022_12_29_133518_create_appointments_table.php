@@ -20,9 +20,9 @@ return new class extends Migration
             $table->string('driver_license');
             $table->string('vehicle_number');
             $table->string('slot');
-            $table->timestamp('start_time');
+            $table->timestamp('start_time')->nullable();
             $table->timestamp('end_time');
-            $table->string('appointment_number');
+            $table->string('appointment_number')->nullable();
             $table->integer('parking_fee');
         });
     }
