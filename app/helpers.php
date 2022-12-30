@@ -21,7 +21,7 @@ class Helper{
             for ($i = 0; $i < 26; $i++) {
                 for ($j = 1; $j <= $number; $j++) {
                     $slotName = chr(65 + $i) . sprintf('%02d', $j);
-                    $slots = $slotName;
+                    $slots[] = $slotName;
                 }
             }
 
