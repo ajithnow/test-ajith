@@ -21,8 +21,8 @@ return new class extends Migration
             $table->string('vehicle_number');
             $table->string('slot');
             $table->timestamp('start_time')->nullable();
-            $table->timestamp('end_time');
-            $table->string('appointment_number')->nullable();
+            $table->timestamp('end_time')->nullable();
+            $table->string('appointment_number');
             $table->integer('parking_fee');
         });
     }
