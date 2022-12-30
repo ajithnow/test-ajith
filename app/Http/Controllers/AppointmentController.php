@@ -28,7 +28,7 @@ class AppointmentController extends Controller
     public function create(Request $request){
         $validator = Validator::make($request->all(), [
             'customer_name' => 'required',
-            'driver_license' => 'required|mimes:pdf|max:5000|min:100',
+            'driver_license' => 'required|mimes:pdf|max:5000|min:2000',
             'vehicle_number' => 'required',
             'start_time' => 'required|date|after:now',
             'end_time' => 'required|date|after:start_time',
