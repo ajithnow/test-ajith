@@ -47,6 +47,13 @@ Sequence - AAA - ZZZ ]
     - start_time:2023-01-02 15:00:00
     - end_time:2023-01-02 22:30:00
 
+# TEST RESULT
+    {
+        "appointment_number": "A01AAA",
+        "slot_number": "A01",
+        "parking_fees": 30
+    }
+
 
 # UI WEB Routes
 
